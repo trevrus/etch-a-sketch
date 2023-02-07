@@ -86,6 +86,6 @@ function makeColorDarker() {
 // add event listener to the button
 const button = document.querySelector('button');
 button.addEventListener('click', () => {
-    const size = prompt('Enter the size of the grid');
+    const size = prompt('Enter the size of the grid', '25');
     createGrid(size);
 });
